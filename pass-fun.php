@@ -40,12 +40,9 @@ function checkThirdRule($password)
 
 function checkFourthRule($password)
 {
-    $specialChars = ['!', '#', '+', '%', '?', '@'];
+    if(preg_match('/[^a-zA-Z0-9]/', $password) > 0){
 
-    for ($i = 0; $i < strlen($password); $i++) {
-        if (in_array($password[$i], $specialChars)) {
-            return true;
-        }
+        return true;
     }
     echo "la password deve contenere almeno un carattere speciale\n";
     return false;
