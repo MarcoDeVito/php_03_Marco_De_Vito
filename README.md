@@ -14,6 +14,6 @@ Verificare se la password inserita dall'utente è valida secondo i seguenti crit
 
 
 ### EXTRA
-Implementare un metodo che faccia reinserire la password qualora anche una delle regole non fosse rispettate e che, invece, lo interrompa in caso di password accettata.
-Visualizzare in console quale regola non è stata rispettata.
-Implementare un metodo che faccia reinserire la password massimo 3 volte. 
+- Implementare un metodo che faccia reinserire la password qualora anche una delle regole non fosse rispettate e che, invece, lo interrompa in caso di password accettata.
+- Visualizzare in console quale regola non è stata rispettata.
+- Implementare un metodo che faccia reinserire la password massimo 3 volte. 
