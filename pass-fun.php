@@ -70,18 +70,24 @@ function checkPassword()
     }
 }
 
-/* $correctPsw=false;
+function insertPswInf(){
+$correctPsw=false;
 
 do {
     
     $correctPsw=checkPassword();
     
 } while (!$correctPsw);
- */
+}
 
-for ($i=0; $i < 3; $i++) { 
+function insertPswLimit($num){
+
+for ($i=0; $i < $num; $i++) { 
     $correctPsw=checkPassword();
     if ($correctPsw) {
       break; 
     }
 }
+}
+
+insertPswLimit(3);
