@@ -40,7 +40,7 @@ function checkThirdRule($password)
 
 function checkFourthRule($password)
 {
-    if(preg_match('/[^a-zA-Z0-9]/', $password) > 0){
+    if(preg_match('/[^a-zA-Z0-9]/', $password)){
 
         return true;
     }
